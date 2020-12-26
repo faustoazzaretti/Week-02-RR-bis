@@ -1,0 +1,26 @@
+#contenedor{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+}
+#cabecera{
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    background-image: url("/image/cabecera.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;   
+    width: 100vw;
+    height: 20vh;
+}
+
+#logo{
+    width: 250px;
+    margin-right: 50%;
+}
+
+#logo a{
+    color: white;
+}
